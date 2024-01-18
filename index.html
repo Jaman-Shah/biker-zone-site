@@ -22,8 +22,8 @@
     </style>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="poppins">
-    <header class="md:container md:mx-auto bg-[#264653]">
+  <body class="poppins max-w-[1170px] my-0 mx-auto">
+    <header class="bg-[#264653]">
       <nav class="text-white">
         <div class="navbar">
           <div class="flex-1">
@@ -225,7 +225,28 @@
         </div>
       </div>
     </header>
-    <main class="md:auto md:mx-auto"></main>
+    <main>
+      <section class="my-9">
+        <div id="image-container">
+          <div id="content" class="text-center mb-9">
+            <h1 class="text-5xl font-semibold">Fetured Bikes In This Year</h1>
+            <p>Best Bike Collections</p>
+            <hr class="text-green-600" />
+          </div>
+         <div id="images" class="flex justify-between gap-10">
+              <div class="">
+                <img class="w-full h-full object-cover" src="./images/others/latest1.png" alt="" />
+              </div>
+              <div class="">
+                <img class="w-full h-full object-cover" src="./images/others/latest2.png" alt="" />
+              </div>
+              <div class="">
+                <img class="w-full h-full object-cover" src="./images/others/latest3.png" alt="" />
+              </div>
+         </div id>
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
